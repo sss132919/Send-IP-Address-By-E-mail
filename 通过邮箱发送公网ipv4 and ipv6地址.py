@@ -44,5 +44,5 @@ def getIPv6addr():
 if __name__ == "__main__":
     getIPv4addr()
     getIPv6addr()
-    send_an_email("\nipv4 address:"+getIPv4addr())
-    send_an_email("\nipv6 address:"+getIPv6addr())
+    send_an_email("\nipv4 address:"+getIPv4addr()+"\nipv6 address:"+getIPv6addr())
+    
